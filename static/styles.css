@@ -1,0 +1,162 @@
+body{
+  background-color: #072540 ;
+}
+
+.primary-color {
+  background-color: #072540 ;
+}
+
+#logo-container{
+  background-image: url("assets/logo.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60px;
+  width: 120px;
+}
+
+.search-card{
+  padding: 20px !important;
+  border-radius: 8px;
+  background-color: #183d5d ;
+  font-family: "Inter Bold", "Helvetica", "Arial", san-serif;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.search-card-heading{
+  margin: 0px !important;
+}
+
+.upload-btn{
+    background-color: #0069ff;
+    border-color: #0069ff;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 700;
+    justify-content: center;
+    padding: 15px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    line-height: 0;
+}
+.analyse-conatiner{
+  padding: 10px;
+}
+
+.sub-heading{
+  margin: 25px 0px !important;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.video-player{
+  width: 100%;
+  padding: 30px;
+}
+
+.center-content{
+  display: flex;
+  justify-content: center;
+}
+
+.analyse-loader, .form-upload{
+  margin-top: 30px;
+}
+
+.new-button {
+  display: inline-block;
+  padding: 4px 8px; 
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #9c4668;
+  color: #fff;
+}
+ 
+.heading {
+  font-weight: 700;
+}
+
+#file{
+  margin-left: 76px;
+}
+
+.data-card{
+  padding: 30px !important;
+  border-radius: 8px;
+  background-color: #183d5d ;
+  /* font-family: "Inter Regular", "Helvetica", "Arial", san-serif; */
+  font-family: "Inter Bold", "Helvetica", "Arial", san-serif;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.analyse{
+  margin-top: 20px;
+}
+
+.action-row{
+  margin-bottom: 0;
+}
+
+.btn:hover , .btn:focus{
+  background-color: #9c4668 !important;
+}
+
+.analysed-card{
+  background-color: #072540 ;
+  color: white;
+  font-family: "Inter Bold", "Helvetica", "Arial", san-serif;
+  padding: 5px;
+}
+
+.analysed-result{
+  background-color: #183d5d;
+  padding: 40px 0px;
+  display: none;
+}
+
+.video{
+  background-color: #183d5d;
+}
+
+.team{
+  background-color: #072540;
+  /* height: 80vh;00 */
+  padding: 30px;
+}
+
+.card-title{
+  color: black !important;
+  font-weight: 600 !important;
+  width: 100% !important; 
+  font-size: 20px !important;
+  text-align: center;
+}
+
+.anamoly-container{
+  margin-top: 10px;
+  margin-bottom: 0px !important;
+}
+
+.progress{
+  width: 30% !important;
+  background-color: #ff8ae2 ;
+}
+
+.progress .indeterminate {
+  background-color: #9c4668;
+}
+
+#analyse-load, #upload-load{
+  display: none;
+}
+
+ 
