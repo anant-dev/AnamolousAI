@@ -78,6 +78,11 @@
 
   <div class="analysed-result" id="analysed-result">
     <div class="container ">
+      <div class="card analysed-card" id="incorrect-entries-container">
+        <h4 class="heading center"> Incorrect Entries</h4>
+        <div id="incorrect-entries">
+        </div>
+      </div>
       <div class="card analysed-card">
         <h4 class="heading center"> Analysed Anomalies</h4>
         <div id="analysedResult">
@@ -101,7 +106,7 @@
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
-            <img src="{{ url_for('static', filename='assets/anant.jpg') }}">
+            <img class="team-img" src="{{ url_for('static', filename='assets/anant.jpg') }}">
           </div>
           <div class="card-content center">
             <span class="card-title activator grey-text text-darken-4">Anant Kumar singh</span>
@@ -111,17 +116,17 @@
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
-            <img src="{{ url_for('static', filename='assets/backgroung.jpeg') }}">
+            <img class="team-img" src="{{ url_for('static', filename='assets/nishant.jpeg') }}">
           </div>
           <div class="card-content center">
-            <span class="card-title   grey-text text-darken-4">Nishant Tyagi</span>
+            <span  class="card-title   grey-text text-darken-4">Nishant Tyagi</span>
           </div>
         </div>
       </div>
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
-            <img src="{{ url_for('static', filename='assets/backgroung.jpeg') }}">
+            <img class="team-img" src="{{ url_for('static', filename='assets/vivek.jpg') }}">
           </div>
           <div class="card-content center">
             <span class="card-title   grey-text text-darken-4">Vivek Mudgal</span>

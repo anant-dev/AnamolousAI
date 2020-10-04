@@ -115,6 +115,7 @@ body{
   color: white;
   font-family: "Inter Bold", "Helvetica", "Arial", san-serif;
   padding: 5px;
+  margin-top: 10px;
 }
 
 .analysed-result{
@@ -159,4 +160,10 @@ body{
   display: none;
 }
 
- 
+#incorrect-entries-container{
+  display: none;
+}
+
+.team-img{
+  height: 350px !important;
+}
