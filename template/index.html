@@ -4,10 +4,11 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <title>AnomalousAI</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='materialize.min.css') }}">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='/styles.css') }}" charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='assets/favicon.ico')}}">
 </head>
 
 <body>
@@ -94,8 +95,7 @@
   <div class="video" id="video">
     <div class="container">
       <video class="video-player" width="400" controls>
-        <source src="mov_bbb.mp4" type="video/mp4">
-        <source src="mov_bbb.ogg" type="video/ogg">
+        <source src="{{ url_for('static', filename='assets/video.mp4')}}" type="video/mp4">
         Your browser does not support HTML video.
       </video>
     </div>
