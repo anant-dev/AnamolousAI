@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Sep 24 01:43:00 2020
-
-@author: Dell
+@author: Team Flash
 """
 import pandas as pd
 import numpy as np
